@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<products-list 
+    [productList]="products" 
+    (onProductSelected)="productWasSelected($event)">
+</products-list>
